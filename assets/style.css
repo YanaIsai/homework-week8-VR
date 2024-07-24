@@ -1,0 +1,153 @@
+
+
+@font-face {
+    src: url("../assets/fonts/intro-regular.woff");
+    font-family: 'Intro Regular';
+}
+
+.wrapper-index{
+    background-image: url("/assets/images/pic.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header__container {
+    max-width: 1290px;
+    margin: 30px auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background: #5222D0;
+    border: none;
+    border-radius: 45px;
+    color: white;
+    font-family: "Intro Regular", "Arial", sans-serif;
+    font-style: normal; 
+    font-weight: normal; 
+    text-transform: uppercase;
+}
+
+.button-cart {
+    width: 115px;
+    height: 38px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+.button-buy {
+    width: 270px;
+    height: 84px;
+    font-size: 35px;
+}
+
+.button-empty {
+    width: 135px;
+    height: 38px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.main__container-index{
+    max-width: 497px;
+    margin-top: 66px;
+    margin-left: 116px;
+}
+.main__container-another-page{
+    margin-top: 89px;
+    margin-left: 125px;
+}
+
+.main__article{
+    padding-left: 10px;
+}
+
+.main__grid{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+    max-width: 1256px;
+    gap: 30px;
+}
+
+.main__title {
+    font-family: "Intro Regular", "Arial", sans-serif;
+    font-style: normal; 
+    font-weight: weight; 
+    text-transform: uppercase;
+    line-height: 120%;
+}
+.main__title-first {
+    font-size: 60px;
+}
+
+.main__section-title {
+    font-size: 30px;
+}
+
+.main__section-title-white {
+    color: #fff;
+    margin-top: 0;
+}
+
+.main__text, .main__section-text {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-style: normal; 
+    font-weight: lighter; 
+    line-height: 160%;
+}
+
+.main__form{
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section-red {
+    background-color: #EC615B;
+}
+
+.footer__container {
+    margin-top: 146px;
+    margin-left: 126px;
+}
+
+.footer__menu{
+    max-width: 532px;
+}
+
+.footer__menu-list {
+    list-style-type: none;
+    list-style-position: inside; 
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+.footer__menu-link {
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-style: normal; 
+    font-weight: lighter; 
+}
+
+.footer__menu-link-index {
+    color: #5222D0;
+}
+
+.footer__menu-link-another-page {
+    color: black;
+}
+
+
+.email {
+    height: 50px;
+    border: none;
+}
